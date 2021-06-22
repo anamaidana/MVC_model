@@ -7,7 +7,7 @@ module.exports = {
     }
 }
 
-saludar: function (req, res) {
+saludar= function(req, res){
     const nombre= req.params.nombre;
     res.send ('Hola '+ nombre);
 }
